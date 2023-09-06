@@ -1,16 +1,17 @@
 1. Continuous Integration (CI): 
-- Linting: Tools like flake8 or pylint.
-- Unit Tests: Run unit tests to make sure each component is working as expected.
-- Use GitLab CI/CD, GitHub Actions or Jenkins for automating testing.
+- Linting: with tools like flake8 or pylint.
+- Unit Tests: to make sure each component is working as expected.
+- Automated testing: with GitLab CI/CD, GitHub Actions or Jenkins.
 
 2. Continuous Deployment (CD):
-- Use cloud services like AWS Sagemaker, Azure ML, or Google Cloud ML for model deployment.
-- Automated Deployment: Automatically deploy the model when new code is merged.
+- Cloud hosting: via AWS EC2 or equivalent in Azure/GCP.
+- Model Deployment: via MLFlow.
 
 3. MLOps Tools:
-- Use MLFlow for experiment tracking.
-- Use Prometheus and Grafana for monitoring KPIs.
+- Experiment tracking: with W&B.
+- Model versioning: with DVC.
+- Monitoring KPIs: with Prometheus, Grafana or Metabase.
 
 4. KPI Monitoring:
-- Track model performance metrics.
-- Track system health metrics like latency, throughput, etc.
+- Model performance metrics.
+- System health metrics like latency, throughput, etc.
