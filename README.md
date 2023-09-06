@@ -7,7 +7,7 @@ This project aims to build a multi-class fashion classifier using the FashionMNI
 - Metrics evaluation: Accuracy, Precision, Recall, and F1 Score.
 - CI/CD Pipeline Plan and SQL Query in separate documentation files (under the dir `docs/`).
 
-Note: While the MobileNetV3 small architecture is effective for this task, it may be considered overkill given the simplicity of the problem at hand. The model quickly converges to optimal results, often within just one epoch, suggesting that a simpler architecture might be sufficient.
+NOTE: While the MobileNetV3 small architecture is effective for this task, it may be considered overkill given the simplicity of the problem at hand. The model quickly converges to optimal results, often within just one epoch, suggesting that a simpler architecture might be sufficient.
 
 ## Installation
 To clone this repository, simply run:
@@ -39,6 +39,8 @@ python train.py [arguments]
 ```bash
 python eval.py [arguments]
 ```
+
+NOTE: Evaluating on CPU a model trained on GPU could cause issues at this state.
 
 ## Testing
 Unit tests can be found under the `test/` directory. To run the tests:

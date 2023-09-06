@@ -9,6 +9,9 @@ from src.models.fashionmnist_classifier import FashionClassifier
 
 
 def main(args):
+    # Seed everything
+    pl.seed_everything(24)
+
     # Initialize the data module
     fashion_mnist_dm = FashionMNISTDataModule(
         batch_size=args.batch_size,
