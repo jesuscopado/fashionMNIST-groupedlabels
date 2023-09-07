@@ -2,7 +2,7 @@
 This project aims to build a multi-class fashion classifier using the FashionMNIST dataset. The classifier categorizes items into five different classes: Upper part, Bottom part, One piece, Footwear, and Bags.
 
 ## Features
-- Multi-class classification using MobileNetV3 small architecture. NOTE: MobileNetV3 small is still too big a simple task like this
+- Multi-class classification using MobileNetV3 small architecture.
 - Data preprocessing and exploration.
 - Metrics evaluation: Accuracy, Precision, Recall, and F1 Score.
 - CI/CD Pipeline Plan and SQL Query in separate documentation files (under the dir `docs/`).
